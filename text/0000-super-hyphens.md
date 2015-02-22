@@ -65,9 +65,7 @@ This RFC proposes it be changed to:
 
 This syntax will be desugared as follows:
 
-*   Currently, if an explicit crate name is not given, it is inferred from the identifier. This means `extern crate bonbon` (for example) is treated as `extern crate "bonbon" as bonbon`.
-
-    We extend this sugar to namespaced crates, by replacing all `::` with `-`. This means `extern crate sweetie::drops` will be desugared into `extern crate "sweetie-drops" as sweetie::drops`.
+**TODO: Write something clever here**
 
 # Drawbacks
 
